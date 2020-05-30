@@ -18,7 +18,7 @@
           titulo="{{str_limit($value->titulo,25,"...")}}"
           descricao="{{str_limit($value->descricao,40,"...")}}"
           link="{{route('artigo',[$value->id,str_slug($value->titulo)])}}"
-          imagem="https://image.freepik.com/free-photo/school-desk-with-open-notebook_1101-370.jpg?1"
+          imagem="#"
           data="{{$value->data}}"
           autor="{{$value->autor}}"
           sm="6"
