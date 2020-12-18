@@ -12,7 +12,7 @@
       </div>
     @endif
 
-    <painel titulo="Lista de Artigos">
+    <painel titulo="Lista dos Recursos">
       <migalhas v-bind:lista="{{$listaMigalhas}}"></migalhas>
 
 

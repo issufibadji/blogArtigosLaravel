@@ -2,7 +2,7 @@
 
 @section('content')
   <pagina tamanho="12">
-    <painel titulo="Artigos">
+    <painel titulo="Recursos Publicados">
 
       <p>
         <form class="form-inline text-center" action="{{route('site')}}" method="get" >

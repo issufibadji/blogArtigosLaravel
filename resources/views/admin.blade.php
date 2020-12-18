@@ -2,7 +2,7 @@
 
 @section('content')
   <pagina tamanho="10">
-    <painel titulo="Dashboard">
+    <painel titulo="Painel do Adiminstrador">
       <migalhas v-bind:lista="{{$listaMigalhas}}"></migalhas>
 
       <div class="row">
@@ -19,7 +19,7 @@
             <caixa qtd="{{$totalAutores}}" titulo="Autores" url="{{route('autores.index')}}" cor="red" icone="ion ion-person"></caixa>
           </div>
           <div class="col-md-4">
-            <caixa qtd="{{$totalAdmin}}" titulo="Admin" url="{{route('adm.index')}}" cor="green" icone="ion ion-person"></caixa>
+            <caixa qtd="{{$totalAdmin}}" titulo="Adminstradores" url="{{route('adm.index')}}" cor="green" icone="ion ion-person"></caixa>
           </div>
         @endcan
 

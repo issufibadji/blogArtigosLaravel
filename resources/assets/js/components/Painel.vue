@@ -13,7 +13,7 @@
         props:['titulo','cor'],
         computed:{
           defineCor: function(){
-            return "panel "+ (this.cor || "panel-default");
+            return "panel"+ (this.cor || "panel-default");
           }
         }
     }

@@ -12,7 +12,7 @@
       </div>
     @endif
 
-    <painel titulo="Lista de Admin">
+    <painel titulo="Lista de Adminstradores">
       <migalhas v-bind:lista="{{$listaMigalhas}}"></migalhas>
 
 
@@ -43,7 +43,7 @@
         <input type="email" class="form-control" id="email" name="email" placeholder="E-mail" value="{{old('email')}}">
       </div>
       <div class="form-group">
-        <label for="admin">Admin</label>
+        <label for="admin">Menu do Administrador</label>
         <select class="form-control" id="admin" name="admin">
           <option {{(old('admin') && old('admin') == 'N' ? 'selected' : '' )}} value="N">Não</option>
           <option {{(old('admin') && old('admin') == 'S' ? 'selected' : ''  )}} {{(!old('admin') ? 'selected' : ''  )}} value="S">Sim</option>

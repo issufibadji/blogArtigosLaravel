@@ -15,6 +15,7 @@
               <a class="navbar-brand" v-bind:href="url">
                   {{ titulo }}
               </a>
+             
           </div>
 
           <div class="collapse navbar-collapse" id="app-navbar-collapse">
